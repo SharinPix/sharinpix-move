@@ -1,0 +1,20 @@
+{
+  "name": "sharinpix-move",
+  "version": "1.0.0",
+  "description": "Use origin_id and destination_id inside csv file to rename albums",
+  "main": "index.js",
+  "bin": {
+    "sharinpix-move": "./bin/moveAlbum"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "author": "sharinpix",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "fast-csv": "^2.4.1",
+    "lodash": "^4.17.10",
+    "sharinpix": "0.0.8"
+  }
+}

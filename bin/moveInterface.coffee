@@ -11,6 +11,6 @@ module.exports = ->
       else
         console.error "Error: Could not find file #{ filePath }."
     else
-      console.error 'Error: Wrong number of arguments.'
+      console.error 'Error: Expected atleast 1 argument. E.g: sharinpix-move sample.csv > success.csv 2> error.csv'
   else
     console.error 'Environment variable SHARINPIX_URL is incorrect.'

@@ -27,6 +27,7 @@ C:\foo>sharinpix-move sample.csv > success.csv 2> error.csv
 -  ``` error.csv ``` refers to the path of the error log file containing only albums that failed to be moved.
 
 The structure of the ``` sample.csv ``` file should be in the following form:
+```
 source_id,destination_id
 foo,bar
 ```

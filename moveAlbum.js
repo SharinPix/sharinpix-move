@@ -1,3 +1,3 @@
-require('coffee-script/register')
+require('coffeescript/register')
 moveAlbum = require('./moveAlbum.coffee');
 module.exports = moveAlbum
